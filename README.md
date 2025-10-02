@@ -67,13 +67,13 @@ Os seguintes cenários foram selecionados como **candidatos à automação** e i
 git clone https://github.com/seu-usuario/tests-automatizados-serverest.git
 cd tests-automatizados-serverest
 ```
-## Instalar o Robot Framework e dependências
+### Instalar o Robot Framework e dependências
 ```
 pip install robotframework
 pip install robotframework-requests
 pip install robotframework-jsonlibrary
 ```
-## 3. Instalar Node.js (para rodar a ServeRest)
+### 3. Instalar Node.js (para rodar a ServeRest)
 
 A API ServeRest roda em Node.js. Certifique-se de ter o Node.js instalado (versão 16 ou superior).
 Verifique se está instalado com:
@@ -81,12 +81,12 @@ Verifique se está instalado com:
 node -v
 npm -v
 ```
-## 4. Subir a API ServeRest localmente
+### 4. Subir a API ServeRest localmente
 Com o Node.js instalado, use o comando abaixo para rodar a API:
 ```
 npx serverest
 ```
-## 5. Rodar os testes automatizados
+### 5. Rodar os testes automatizados
 Executar todos os testes:
 ```
 robot tests/
@@ -95,7 +95,8 @@ Rodar um arquivo específico:
 ```
 robot tests/login.robot
 ```
-## 📊 Evidências e Resultados
+---
+### 📊 Evidências e Resultados
 
 Após a execução, serão gerados automaticamente os arquivos:
 
@@ -106,6 +107,7 @@ log.html → Log de execução
 output.xml → Saída em XML
 
 (Esses arquivos estão ignorados no .gitignore, para não poluir o repositório.)
+---
 
 ## 👨‍💻 Autor
 
