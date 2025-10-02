@@ -80,11 +80,11 @@ Com o Node.js instalado, use o comando abaixo para rodar a API:
 npx serverest
 ```
 ### 5. Rodar os testes automatizados
-Executar todos os testes:
+- Executar todos os testes:
 ```
 robot tests/
 ```
-Rodar um arquivo específico:
+- Rodar um arquivo específico:
 ```
 robot tests/login.robot
 ```
@@ -99,7 +99,8 @@ log.html → Log de execução
 
 output.xml → Saída em XML
 
-(Esses arquivos estão ignorados no .gitignore, para não poluir o repositório.)
+- (Esses arquivos estão ignorados no .gitignore, para não poluir o repositório.)
+
 ---
 
 ## 👨‍💻 Autor
