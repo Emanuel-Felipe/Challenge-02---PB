@@ -30,13 +30,6 @@ Garantir que a **API ServeRest** cumpra as regras de negócio definidas, validan
 
 ---
 
-## 📋 Documentos Importantes
-
-- 📑 [Plano de Testes - ServeRest](Plano%20de%20Testes%20-%20ServeRest.pdf)  
-- 🐞 [Detalhamento das Issues](Detalhamento%20Das%20Issues.pdf)  
-
----
-
 ## 🤖 Testes Automatizados
 
 Os seguintes cenários foram selecionados como **candidatos à automação** e implementados no Robot Framework:
