@@ -57,7 +57,7 @@ Os seguintes cenários foram selecionados como **candidatos à automação** e i
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/tests-automatizados-serverest.git
+git clone https://github.com/Emanuel-Felipe/Challenge-02---PB.git
 cd tests-automatizados-serverest
 ```
 ### Instalar o Robot Framework e dependências
